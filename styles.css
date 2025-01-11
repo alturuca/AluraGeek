@@ -28,8 +28,19 @@ header {
 
 .contenedor {
     display: flex;
+    
 }
 
+.titulo__producto{
+    text-align: center;
+}
 .productos{
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contenedor-prouctos--tarjetas{
+    display: flex;
 }
