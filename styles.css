@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variables */
+:root {
+    --font-primary: 'Raleway', sans-serif;
+    --font-secondary: 'Press Start 2P',serif;
+}
+/* Cabecera*/
+header {
+   background-color: #5303c8;
+   height: 96px;
+   display: flex;
+   flex-direction: row; 
+   justify-content: center;
+   align-items: center;
+}
+.header__imagen {    
+    width: 138PX;
+    height: 56px;
+}
+.header__titulo{
+    font-family: var(--font-secondary);
+    color: #fff;
+    font-size: 24px;    
+}
+
+/*Fin de cabecera*/
+
+.contenedor {
+    display: flex;
+}
+
+.productos{
+    height: 50vh;
+}
