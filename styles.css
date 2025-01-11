@@ -4,6 +4,7 @@
 :root {
     --font-primary: 'Raleway', sans-serif;
     --font-secondary: 'Press Start 2P',serif;
+    --fondo:
 }
 /* Cabecera*/
 header {
@@ -43,4 +44,17 @@ header {
 
 .contenedor-prouctos--tarjetas{
     display: flex;
+}
+.tarjetas{
+    width: 196px;
+    height: 258px;
+    background-color: #5303c8;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 4px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
