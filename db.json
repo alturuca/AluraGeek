@@ -1,0 +1,77 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Bicileta Electrica",
+      "precio": "80,00",
+      "imagen": "https://images.pexels.com/photos/19411363/pexels-photo-19411363/free-photo-of-arena-vehiculo-ruedas-neumaticos.jpeg"
+      
+    },
+    {
+      "id": "2",
+      "nombre": "Disco de freno",
+      "precio": "12,00",
+      "imagen": "https://images.pexels.com/photos/6503106/pexels-photo-6503106.jpeg"
+    },
+    {
+      "id": "3",
+      "nombre": "Todo terreno dama",
+      "precio": "40,00",
+      "imagen": "https://images.pexels.com/photos/19131132/pexels-photo-19131132/free-photo-of-montanas-arena-mujer-deporte.jpeg"
+    },
+    {
+      "id": "4",
+      "nombre": "Disco de freno",
+      "precio": "12,00",
+      "imagen": "https://images.pexels.com/photos/6503106/pexels-photo-6503106.jpeg"
+    },
+    {
+      "id": "5",
+      "nombre": "Bicileta Electrica",
+      "precio": "80,00",
+      "imagen": "https://images.pexels.com/photos/19411363/pexels-photo-19411363/free-photo-of-arena-vehiculo-ruedas-neumaticos.jpeg"
+    },
+    {
+      "id": "6",
+      "nombre": "Todo terreno dama",
+      "precio": "40,00",
+      "imagen": "https://images.pexels.com/photos/19131132/pexels-photo-19131132/free-photo-of-montanas-arena-mujer-deporte.jpeg"
+    },
+    {
+      "id": "7",
+      "nombre": "Disco de freno",
+      "precio": "12,00",
+      "imagen": "https://images.pexels.com/photos/6503106/pexels-photo-6503106.jpeg"
+    },
+    {
+      "id": "8",
+      "nombre": "Bicileta Electrica",
+      "precio": "80,00",
+      "imagen": "https://images.pexels.com/photos/19411363/pexels-photo-19411363/free-photo-of-arena-vehiculo-ruedas-neumaticos.jpeg"
+    },
+    {
+      "id": "be1c",
+      "nombre": "Asdd",
+      "precio": "20",
+      "imagen": "https://images.pexels.com/photos/19131132/pexels-photo-19131132/free-photo-of-montanas-arena-mujer-deporte.jpeg"
+    },
+    {
+      "id": "d3b8",
+      "nombre": "dddd",
+      "precio": "528",
+      "imagen": "https://images.pexels.com/photos/19131132/pexels-photo-19131132/free-photo-of-montanas-arena-mujer-deporte.jpeg"
+    },
+    {
+      "id": "11f3",
+      "nombre": "aal",
+      "precio": "5000",
+      "imagen": "https://images.pexels.com/photos/19131132/pexels-photo-19131132/free-photo-of-montanas-arena-mujer-deporte.jpeg"
+    },
+    {
+      "id": "8118",
+      "nombre": "aaa",
+      "precio": "aaa",
+      "imagen": "https://images.pexels.com/photos/19131132/pexels-photo-19131132/free-photo-of-montanas-arena-mujer-deporte.jpeg"
+    }
+  ]
+}

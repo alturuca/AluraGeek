@@ -12,85 +12,43 @@
 </head>
 <body>
     <header>
-        <img  class="header__imagen" src="/assets/corazones.png" alt="corazones">
-        <h1 class="header__titulo">AluraGeek</h1>
+        <img src="/assets/gear-295455_1280.png" alt="Logo" width="50" height="50">
+        <h1>RuedaTienda</h1>
     </header>
-    
-    <main class="contenedor">
-        
-        
-        <section class="productos" id="productos">
-            <h1 class="titulo__producto" >MIS PRODUCTOS</h1>
-            <section class="contenedor-prouctos--tarjetas">
+    <main>
+                   
+            <div class="section-title">Mis Productos</div>
+                
+                    <ul class="cards" data-lista> </ul>
+                
             
-                <div class="tarjetas">
-                    <img src="/assets/image1.png" alt="robot">
-                    <div class="contenedor-prouctos--tarjetas__info">
-                        <p>Nombre</p>
-                        <div class="contenedor-prouctos--tarjetas__valor">
-                            <p>$ 00.00</p>
-                            <img src="/assets/basura.png" alt="boton eleminar">
-                        </div>
-
-                    </div>
-
-                    <!-- Aquí se mostrarán las tarjetas de productos -->
-                </div>
-
-                <div>
-                    <img src="/assets/image2.png" alt="robot">
-                    <div class="contenedor-prouctos--tarjetas__info">
-                        <p>Nombre</p>
-                        <div class="contenedor-prouctos--tarjetas__valor">
-                            <p>$ 00.00</p>
-                            <img src="/assets/basura.png" alt="boton eleminar">
-                        </div>
-
-                    </div>
-
-                <!-- Aquí se mostrarán las tarjetas de productos -->
-                </div>
-
-                <div>
-                    <img src="/assets/image1.png" alt="robot">
-                    <div class="contenedor-prouctos--tarjetas__info">
-                        <p>Nombre</p>
-                        <div class="contenedor-prouctos--tarjetas__valor">
-                            <p>$ 00.00</p>
-                            <img src="/assets/basura.png" alt="boton eleminar">
-                        </div>
-
-                    </div>
-
-                    <!-- Aquí se mostrarán las tarjetas de productos -->
-                </div>
-            </section>
-        </section>
-
-        <section id="formulario">
-            <h2>Agregar Producto</h2>
-            <form>
-                <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </div>
-                <div>
-                    <label for="precio">Precio:</label>
-                    <input type="number" id="precio" name="precio" required>
-                </div>
-                <div>
-                    <label for="imagen">Imagen:</label>
-                    <input type="text" id="imagen" name="imagen" required>
-                </div>
-                <div>
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Limpiar</button>
-                </div>
+       
+        <div class="form">
+            <h2 class="form-titulo" >Agregar Producto</h2>
+            <form data-formulario>
+                <input type="text" placeholder="Nombre...." required data-nombre>
+                <input type="text" placeholder="Precio...." required data-precio>
+                <input type="url" placeholder="Imagen...." required data-imagen>
+                <div class="form-buttons"> 
+                    <input type="submit" value="Enviar"> 
+                    <input type="reset" value="Limpiar"> </div>
             </form>
-        </section>
+
+        </div>
     </main>
     <footer>
-        <p>&copy; 2023 Tienda Alura. Todos los derechos reservados.</p>
+        <div class="footer-titulo">
+            <img src="/assets/gear-295455_1280.png" alt="Logo" width="50" height="50">
+            <h1 class="footer-texto" >RuedaTienda</h1>
+        </div>
+        <p class="footer-texto">Desarrollado por Alex Tulio Ruiz Camilo</p>
+        <p class="footer-texto">ALURA LATAM - 2025</p>
     </footer>
+
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module"></script>
+    
+    
+    
 </body>
 </html>
